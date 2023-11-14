@@ -1,6 +1,5 @@
 ---
 title: About
-slug: /about/
 seo:
   page_description:
   canonical_url:
