@@ -1,6 +1,5 @@
 ---
 title: About
-permalink: /about
 seo:
   page_description:
   canonical_url:
