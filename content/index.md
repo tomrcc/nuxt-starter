@@ -1,6 +1,5 @@
 ---
 title: Home
-layout: custom
 content_blocks:
   - _bookshop_name: home/hero
     title: Beautiful email campaigns
@@ -9,7 +8,7 @@ content_blocks:
     image_alt: Reports dashboard
     button:
       text: Try This Free
-      link: /signup
+      link: /
 
   - _bookshop_name: general/counter
     title: Scale your
@@ -36,7 +35,7 @@ content_blocks:
     video_url: https://vimeo.com/45830194
 
   - _bookshop_name: general/header
-    title: "Sendit "
+    title: 'Sendit '
     title_suffix: Features
     remove_top_padding: true
     description: >-
@@ -47,30 +46,30 @@ content_blocks:
   - _bookshop_name: general/feature
     image: /images/feature/feature-card-one.png
     image_alt: Message inbox
-    title: "Email Campaign in one minute"
-    description: "Send an email campaign with one click, in just minutes. Automate your emails and content, while keeping the human touch."
+    title: 'Email Campaign in one minute'
+    description: 'Send an email campaign with one click, in just minutes. Automate your emails and content, while keeping the human touch.'
     button:
-      link: /signup
+      link: /
       text: Try This Free
     reversed: false
 
   - _bookshop_name: general/feature
     image: /images/feature/feature-card-two.png
     image_alt: Visitor chart
-    title: "See every Lead in one Place"
-    description: "Sales analytics and automation made simple: see every sales lead in one place, regardless of where it came from."
+    title: 'See every Lead in one Place'
+    description: 'Sales analytics and automation made simple: see every sales lead in one place, regardless of where it came from.'
     button:
-      link: /signup
+      link: /
       text: Try This Free
     reversed: true
 
   - _bookshop_name: general/feature
     image: /images/feature/feature-card-three.png
     image_alt: File upload
-    title: "100% free uploads"
-    description: "Sendit is used by everyone from small businesses to fortune 500 companies. Browse our collection of email marketing templates and start sending beautiful emails in minutes."
+    title: '100% free uploads'
+    description: 'Sendit is used by everyone from small businesses to fortune 500 companies. Browse our collection of email marketing templates and start sending beautiful emails in minutes.'
     button:
-      link: /signup
+      link: /
       text: Try This Free
     reversed: false
 
@@ -96,18 +95,4 @@ content_blocks:
         author: Simon Moriarty
         designation: Head of Marketing at Pinnacle Mines
         message: I can't imagine life without Sendit now, I have no idea how we were surviving before.
-# content_blocks:
-#   - _bookshop_name: home/hero
-#     title: Beautiful email campaigns
-#     description: With Sendit, you can quickly create beautiful rich emails that capture a reader's attention, engage them, and convert them into customers.
-#     image: /images/hero/hero-image-2.png
-#     image_alt: Reports dashboard
-#     button:
-#       text: Try This Free
-#       link: /signup
-#   - _bookshop_name: home/video
-#     image: /images/video/video-thum.jpg
-#     image_alt: Thumbnail for video
-#     video_url: https://vimeo.com/45830194
-
 ---

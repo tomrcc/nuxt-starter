@@ -21,24 +21,9 @@ collections_config:
       page:
         name: New Page
         path: schemas/page.md
-  blog:
-    path: content/blog/
-    output: true
-    url: '/blog/[slug]'
-    _enabled_editors:
-      - content
-      - visual
-    schemas:
-      blog_post:
-        name: New Blog Post
-        path: schemas/post.md
-        hide_extra_inputs: false
-        remove_extra_inputs: false
 _inputs:
   date:
     instance_value: now
-  title_suffix:
-    comment: Added at the end of the title and highlighted in a different color
   pagination.data:
     hidden: true
   pagination.alias:
@@ -81,9 +66,3 @@ _inputs:
     comment: >-
       When selected this removes the page from your sitemap and adds the noindex
       robots meta tag
-_structures:
-  features:
-    values:
-      - value:
-          item: 
-          isActive: 
