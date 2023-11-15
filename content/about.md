@@ -1,5 +1,6 @@
 ---
 title: About
+permalink: /about/
 content_blocks:
   - _bookshop_name: about/hero
     title: On a mission to change email marketing
