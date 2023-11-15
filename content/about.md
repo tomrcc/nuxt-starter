@@ -16,7 +16,7 @@ content_blocks:
         placement: 'back_top_left'
     button:
       text: 'Try This Free'
-      link: '/about/'
+      link: '/'
 
   - _bookshop_name: general/counter
     title: Built for your
