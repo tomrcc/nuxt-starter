@@ -8,7 +8,7 @@ content_blocks:
     image_alt: Reports dashboard
     button:
       text: Try This Free
-      link: /
+      link: '/about/'
 
   - _bookshop_name: general/counter
     title: Scale your
