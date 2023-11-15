@@ -22,29 +22,6 @@ collections_config:
         name: New Page
         path: schemas/page.md
 _inputs:
-  date:
-    instance_value: now
-  pagination.data:
-    hidden: true
-  pagination.alias:
-    hidden: true
-  pagination.size:
-    type: number
-  'social[*].icon':
-    type: select
-    options:
-      values:
-        - ph-facebook-logo
-        - ph-instagram-logo
-        - ph-twitter-logo
-        - ph-github-logo
-        - ph-youtube-logo
-  logo_url:
-    comment: Link for the logo in the top left of the footer
-  copyright:
-    comment: Automatically prefixed with the current year
-  isActive:
-    type: switch
   page_description:
     comment: Defaults to the description set in the Site SEO data file
   favicon_icon:
